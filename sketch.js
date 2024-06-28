@@ -3,13 +3,13 @@ var shownImages = [];
 var count = 0;
 var allImagesLoaded = false; // Flag to check if all images are loaded
 var loadingText = "Please wait till the website loads...";
-var totalImages = 11; // Total number of images
+var totalImages = 10; // Total number of images
 var loadCount = 0; // Count of loaded images
 
 function preload() {
   background_imgs[1] = loadImage("backgroundImg/leopard.png", imageLoaded);
   background_imgs[2] = loadImage("backgroundImg/lion.webp", imageLoaded);
-  background_imgs[3] = loadImage("backgroundImg/panda.webp", imageLoaded);
+  background_imgs[3] = loadImage("backgroundImg/squirrel.jpg", imageLoaded);
   background_imgs[4] = loadImage("backgroundImg/blackbuck.png", imageLoaded);
   background_imgs[5] = loadImage("backgroundImg/black_monkey.png", imageLoaded);
   background_imgs[6] = loadImage("backgroundImg/rh.png", imageLoaded);
@@ -17,7 +17,7 @@ function preload() {
   background_imgs[8] = loadImage("backgroundImg/lion_2.jpg", imageLoaded);
   background_imgs[9] = loadImage("backgroundImg/redpanda.jpg", imageLoaded);
   background_imgs[10] = loadImage("backgroundImg/dolphin.jpg", imageLoaded);
-  background_imgs[11] = loadImage("backgroundImg/squirrel.jpg", imageLoaded);
+ 
 }
 
 function setup() {
@@ -69,12 +69,12 @@ function spawnBackground() {
     var img;
 
     do {
-      img = Math.round(random(1, 11));
+      img = Math.round(random(1, 10));
     } while (shownImages.includes(img));
 
     shownImages.push(img);
 
-    if (shownImages.length >= 11) {
+    if (shownImages.length >= 10) {
       shownImages = [];
     }
 
