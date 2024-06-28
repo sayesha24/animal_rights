@@ -1,0 +1,186 @@
+canvas {
+
+    display:block;
+    background-color: black;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: black;
+    display:list-item;
+    
+    
+  } 
+
+  .buttonClass{
+
+    margin:20px;
+    float: top;
+  }
+  .buttonClass button{ 
+    position:relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-color: black;
+    float:right;
+    text-align: center;
+    border-width: 0px;
+    margin-top: 15px;
+    
+   
+  }
+  .buttonClass button:hover{ 
+    
+    color: orange;
+    transition: 0.7s;
+   
+    
+  }
+  
+  .name h2{
+    background-color: black;
+    position: relative;
+    color: rgb(147, 200, 171);
+    float: left;
+    margin-left:5px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-top:15px;
+    font-size: 45px;
+    font-weight:900;
+    font-family:fantasy;
+  }
+  .articles{
+
+    position: relative;
+    float: center;
+    display: flex;
+    flex-direction: wrap;
+    gap: 20px;
+    top:100px;
+    
+  }
+
+  .articles a{
+
+    margin: 0px;
+    font-size: 20px;
+    
+  }
+  .heading{
+    align-self: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 140px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: relative;
+
+  }
+
+  .article1{
+
+    position: absolute;
+    align-self: center;
+    margin:60px;
+    top:100px;
+    background-color: white;
+    border-width: 10px;
+    border-color: blue;
+    font-family:'Courier New', Courier, monospace;
+    width:auto;
+
+  }
+
+  .article1 img{
+
+    width:300px;
+    height:290px;
+    position: relative;
+    float: left;
+    display: flex;
+    border-width: 10px;   
+    border-color: black; 
+    border-style:ridge;
+    margin-right: 10px;
+
+  }
+
+  .article1 p{
+
+   font-size: 25px;
+   margin-bottom:0px;
+
+  }
+
+  .article2{
+
+    position: absolute;
+    align-self: center;
+    top:460px;
+    margin:60px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    
+
+  }
+  .article2 img{
+
+    width:300px;
+    height:320px;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-width: 10px;   
+    border-color: black; 
+    border-style:ridge;
+    margin-right: 10px;
+
+  }
+
+  .article2 p{
+
+    font-size: 25px;
+    margin-bottom:0px;
+ 
+   }
+  .article3{
+
+    position: absolute;
+    align-self: center;
+    top:850px;
+    margin:60px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+
+  }
+
+  .article3 p{
+
+    font-size: 25px;
+    margin-bottom:0px;
+ 
+   }
+
+   .article3 img{
+
+    width:300px;
+    height:280px;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-width: 10px;   
+    border-color: black; 
+    border-style:ridge;
+    margin-right: 10px;
+
+  }

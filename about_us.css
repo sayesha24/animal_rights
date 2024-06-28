@@ -1,0 +1,113 @@
+canvas {
+  display: block;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh; /* Ensure the body takes the full height */
+  background-color: black;
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+}
+
+.heading {
+  position: relative;
+  justify-content: center;
+  margin-top: 80px;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonClass {
+  position: absolute; /* Use absolute positioning */
+  top: 10px; /* Align to the top */
+  right: 0; /* Align to the right */
+  margin: 10px; /* Add some margin for spacing */
+  padding: 0;
+}
+
+.buttonClass button { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-color: black;
+  text-align: center;
+  border-width: 0px;
+  margin-top: 5px;
+}
+
+.buttonClass button:hover { 
+  color: orange;
+  transition: 0.7s;
+}
+
+.container {
+  color: white;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.name h2 {
+  background-color: black;
+  position: relative;
+  color: rgb(147, 200, 171);
+  float: left;
+  margin-left: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: fantasy;
+}
+
+.container p, .container h1, .container h2 {
+  width: 100%;
+}
+
+.container p {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.mission h2 {
+  color: rgb(208, 161, 41);
+}
+
+.founder h2 {
+  color: rgb(208, 161, 41);
+}
+
+.founder {
+  overflow: auto; /* Clear the float to prevent subsequent elements from floating */
+  padding: 20px;
+  margin: 10px;
+}
+
+.founder img {
+  width: 50%; 
+  height: auto; 
+  max-width: 300px; 
+  float: left; /* Float the image to the left */
+  margin: 20px;
+}
+
+.contact {
+  background-color: rgba(245, 250, 215, 0.772);
+  color: black;
+  opacity: 70%;
+}
+
+.contact h2 {
+  color: black;
+  padding: 10px;
+}
